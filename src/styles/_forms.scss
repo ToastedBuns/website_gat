@@ -1,0 +1,35 @@
+// Buttons
+.form-inline {
+  display: block;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 0 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid $gray-8;
+  border-right: none;
+}
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid $my-blue;
+  color: $gray-8;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+
+  &:hover {
+    background-color: $my-blue;
+    color: $white;
+  }
+}
+
+.mail-list {
+  p.lead {
+    margin-bottom: 0;
+  }
+  margin-bottom: 20px;
+}

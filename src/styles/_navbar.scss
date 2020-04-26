@@ -1,0 +1,152 @@
+/*NAVBAR styling*/
+.navbar-default {
+  background: $my-yellow;
+  border: 0;
+  font-family: $site-font;
+  padding: 0 40px 0 40px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  border-radius: 0;
+  line-height: 2.2rem;
+}
+.navbar.navbar-default.main-nav {
+  border-bottom: 1px solid $black;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: $black;
+}
+/*Buttons styling (navbar links and other buttons*/
+.navbar-default .navbar-nav > li.nav-item {
+  a.nav-link {
+    text-transform: none;
+    border-bottom: 4px solid transparent;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+
+    @include ease-out-border-color-transition(0.5s);
+
+    &:hover {
+      color: $black;
+      cursor: pointer;
+    }
+    &.active {
+      color: $black;
+      border-color: $black;
+    }
+  }
+}
+/* navbar page links */
+.navbar-default .navbar-nav > .nav-item > a.nav-link:hover {
+  border-color: $black;
+}
+// .navbar-default .navbar-nav > .nav-item > a.nav-link,
+// .navbar-default .navbar-nav > .nav-item > a.nav-link:focus,
+// .navbar-default .navbar-nav > .nav-item > a.nav-link:hover {
+//   //background-color: transparent;
+//   color: $black;
+//   border-color: $black;
+// }
+
+/* NAVBAR animation*/
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggler:hover {
+  background: transparent !important;
+}
+
+.navbar-toggler .icon-bar {
+  width: 22px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/* Social NAVBAR animation */
+/*.social-nav{
+      transition: all 1s;
+      -webkit-transition: all 1s;
+      transform: translate3d(0,0,0) rotate(0deg);
+  }*/
+// Social NAVBAR
+.social-nav {
+  ul {
+    flex-direction: row;
+  }
+}
+/* navbar external links */
+.navbar-default .navbar-nav > .nav-social-link {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  a {
+    color: white;
+    border-bottom: 0px solid transparent;
+
+    &:hover {
+      color: $black;
+    }
+  }
+}
+
+/* Collapsed navbar*/
+.navbar-default .navbar-toggler {
+  border-color: transparent;
+}
+.navbar-default .navbar-toggler:hover,
+.navbar-default .navbar-toggler:focus {
+  background-color: transparent;
+}
+// Navbar collapse button spans
+.navbar-default .navbar-toggler .icon-bar {
+  background-color: $text-white;
+  background-color: #ffffff;
+  display: block;
+  height: 2px;
+  border-radius: 1px;
+}
+.navbar-toggler .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+/* Animated up arrow nav */
+.navbar-toggler.upar.collapsed .icon-bar:nth-of-type(1) {
+  transform: translate3d(0, 0, 0) rotate(0deg);
+  width: 22px;
+}
+
+.navbar-toggler.upar.collapsed .icon-bar:nth-of-type(2) {
+  transform: translate3d(0, 0, 0) rotate(0deg);
+}
+
+.navbar-toggler.upar.collapsed .icon-bar:nth-of-type(3) {
+  transform: translate3d(0, 0, 0) rotate(0deg);
+  width: 22px;
+}
+
+.navbar-toggler.upar .icon-bar:nth-of-type(1) {
+  transform: translate3d(1px, 0, 0) rotate(-45deg);
+  transform-origin: center center;
+  width: 11px;
+}
+
+.navbar-toggler.upar .icon-bar:nth-of-type(2) {
+  transform: rotate(-90deg);
+  transform-origin: center center;
+}
+
+.navbar-toggler.upar .icon-bar:nth-of-type(3) {
+  transform: translate3d(0px, -14px, 0) rotate(-135deg);
+  transform-origin: right top;
+  width: 11px;
+}
+@media (max-width: 768px) {
+  .navbar-default {
+    padding-right: 0px;
+    padding-left: 20px;
+  }
+}

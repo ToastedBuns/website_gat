@@ -1,0 +1,106 @@
+// Scroll up button styles
+.scroll {
+  // opacity: 0.8;
+  position: fixed;
+  bottom: 10px;
+  // right: calc((100% - 350px) / 2 - 20px);
+  right: 20px;
+  transition: all $animation-duration;
+  background-color: transparent;
+  border: none;
+
+  i {
+    color: $gray-8;
+    transition: all 0.1s ease-in;
+
+    &:hover {
+      cursor: pointer;
+      color: $my-blue;
+    }
+  }
+  &:focus {
+    border: none;
+    outline: none;
+  }
+
+  // @media only screen and (min-width: 768px) and (max-width: 949px) {
+  //   right: calc((100% - 75px) / 2 - 20px);
+  // }
+  // @media only screen and (min-width: 950px) and (max-width: 1045px) {
+  //   right: calc((100% - 250px) / 2 - 20px);
+  // }
+
+  // @media only screen and (max-width: 768px) {
+  //   right: calc(50% - 20px);
+  // }
+}
+.hidden {
+  opacity: 0;
+}
+
+// Navigation links
+.nav-links {
+  position: fixed;
+  // right: calc((100% - 350px) / 2 - 20px);
+  right: calc(50% - (200px / 2));
+  z-index: 999;
+  transition: all $animation-duration;
+  margin-top: -50px;
+
+  a {
+    color: $gray-8;
+    margin-right: 20px;
+    margin-left: 20px;
+    &:hover {
+      color: $my-blue;
+    }
+  }
+
+  // a:hover {
+  //   .home-icon polygon {
+  //     fill: $my-blue;
+  //   }
+  // }
+  // .icon {
+  //   display: block;
+  //   width: 40px;
+  //   height: 40px;
+  // }
+  // .home-icon polygon {
+  //   transition: 100ms ease-in;
+  //   fill: $gray-8;
+  // }
+}
+
+ul.social-share-links {
+  position: fixed;
+  top: 36%;
+  right: 25px;
+  text-align: center;
+
+  li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  li a {
+    color: $gray-8;
+    opacity: 0.6;
+    &:hover {
+      opacity: 1;
+    }
+
+    &.facebook {
+      color: rgb(66, 103, 178);
+    }
+    &.twitter {
+      color: rgb(56, 161, 243);
+    }
+    &.google {
+      color: rgb(221, 75, 57);
+    }
+    &.linkedin {
+      color: rgb(0, 119, 181);
+    }
+  }
+}

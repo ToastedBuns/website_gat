@@ -1,0 +1,38 @@
+@mixin border-radius($radius:5px, $color:transparent){
+    -webkit-border: $radius solid $color;
+    -moz-border: $radius solid $color;
+    -ms-border: $radius solid $color;
+    -o-border: $radius solid $color;
+    border: $radius solid $color;
+}
+@mixin ease-out-border-color-transition($time: 1s){
+    -webkit-transition: border $time ease-out,color $time ease-out;
+    -moz-transition: border $time ease-out,color $time ease-out;
+    -ms-transition: border $time ease-out,color $time ease-out;
+    -o-transition: border $time ease-out,color $time ease-out;
+    transition: border $time ease-out,color $time ease-out;
+}
+
+@mixin ease-out-color-transition($time: 1s){
+    -webkit-transition: color $time ease-out;
+    -moz-transition: color $time ease-out;
+    -ms-transition: color $time ease-out;
+    -o-transition: color $time ease-out;
+    transition: color $time ease-out;
+}
+
+@mixin ease-out-all-transition($time: 1s){
+    -webkit-transition: all $time ease-out;
+    -moz-transition: all $time ease-out;
+    -ms-transition: all $time ease-out;
+    -o-transition: all $time ease-out;
+    transition: all $time ease-out;
+}
+
+@mixin ease-out-background-color($time: 1s){
+    -webkit-transition: background-color $time ease-out;
+    -moz-transition: background-color $time ease-out;
+    -ms-transition: background-color $time ease-out;
+    -o-transition: background-color $time ease-out;
+    transition: background-color $time ease-out;
+}

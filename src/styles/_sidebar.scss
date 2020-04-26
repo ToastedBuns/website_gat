@@ -1,0 +1,99 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  // align-items: stretch;
+}
+#content {
+  //margin-left: 400px;
+  width: calc(100% - 350px);
+  top: 0;
+  right: 0;
+  position: absolute;
+  transition: all $animation-duration;
+}
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 100vh;
+  padding: 20px 0 20px 0;
+  transition: all $animation-duration;
+  text-align: center;
+  background-color: #fff;
+
+  border-right: 1px solid rgb(182, 182, 182);
+
+  .sidebar-header {
+    img {
+      max-width: 100%;
+      opacity: 1;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  ul li a {
+    margin: 20px auto 20px auto;
+    display: block;
+  }
+  hr.separator-ruler {
+    display: none;
+  }
+  ul.side-links li a {
+    i {
+      display: none;
+    }
+  }
+  h1,
+  h2,
+  h3,
+  p,
+  i.nav-icon {
+    color: $gray-8;
+  }
+  i.nav-icon:hover {
+    transition: color 0.1s ease-in;
+    color: $my-blue;
+  }
+
+  ul.social-links {
+    display: inline-flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    li {
+      margin-right: 15px;
+      margin-left: 15px;
+
+      a {
+        margin-bottom: 5px;
+        margin-top: 5px;
+
+        &.facebook {
+          color: rgb(66, 103, 178);
+        }
+        &.youtube {
+          color: red;
+        }
+        &.twitch {
+          color: #6441a4;
+        }
+        &.stitcher {
+          color: #ec8a22;
+        }
+        &.itunes {
+          color: #66d9e8;
+        }
+        &.spotify {
+          color: #1db954;
+        }
+        &.rss {
+          color: #fd7e14;
+        }
+      }
+    }
+  }
+}

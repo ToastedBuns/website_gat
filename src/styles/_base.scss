@@ -1,0 +1,88 @@
+html {
+  font-family: $site-font;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  font-family: $site-font;
+  background-color: $gray-250;
+}
+#content {
+  background: linear-gradient(
+    90deg,
+    rgba(236, 236, 236, 1) 0%  );
+}
+.custom-container {
+  width: 100%;
+  padding: 0 15px;
+  margin-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 100vh;
+}
+.article-container {
+  max-width: 900px;
+  padding: 0 20px 50px 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  font-family: $site-font;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.7em;
+}
+h1 {
+  font-size: 3rem;
+  &.page-title {
+    text-align: center;
+  }
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+small {
+  color: $gray-4;
+}
+a {
+  color: inherit;
+  transition: all 0.1s ease-in;
+  text-decoration: none;
+  font-weight: 500;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: $my-blue;
+  }
+}
+// Scroll bar
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: $gray-200;
+}
+::-webkit-scrollbar-thumb {
+  background: $gray-8;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: $my-blue;
+}
+
+.window-content::-webkit-scrollbar {
+  width: 4px;
+}
+
+.twitchView {
+    float: left;
+}
