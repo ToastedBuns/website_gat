@@ -2,7 +2,7 @@
 title: Lockdown Needs To End NOW
 date: 2020-04-27 22:05:23
 author: 'Toasted Buns'
-image: ../../images/coronavirus.jpg.png
+image: ../../images/coronavirus.jpg
 tags:
   - Youtube
   - Coronavirus
