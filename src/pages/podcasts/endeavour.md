@@ -1,27 +1,27 @@
 ---
-title: 'Podcast #47 Ahmed is back!'
-date: 2019-09-29 21:00:28
+title: 'Liberalism Creates Inauthentic Culture With Endeavour'
+date: 2020-05-08 21:00:28
 tags:
   - Podcast
-  - Climate Change
   - Politics
-  - UK
-  - Chill
+  - Culture
+  - Reactionary Right
 author: 'Toasted Buns'
 image: ../../images/podcast.jpg
 ---
-Episode 47 of Toasted Buns Podcast.
+I will be discussing modern culture and it's shortcomings with Endeavour.
 
-Ahmed is finally back so we will have a chill chat with
+Endeavour channel: 
+https://www.youtube.com/channel/UCsKBqLQmB1aCVuUC3e14riA
 
-Let us know what you think in the comments below!
+His Twitter:
+https://twitter.com/RoyalEndeavour
 
-I love you all and you are the best!
+Like and Subscribe for more content like this!
 
-Make sure you join us Live on YouTube every Sunday @ 7pm!
 
 Gab: https://gab.com/ToastedBuns
-
+Twitter: https://twitter.com/realtoastedbuns
  
 
  
@@ -31,7 +31,7 @@ Gab: https://gab.com/ToastedBuns
 
 ```audio
 autoplay: true
-name: Podcast #47 Ahmed is back!
-src: "podcasts/episode47.mp3"
+name: Liberalism Creates Inauthentic Culture With Endeavour
+src: "podcasts/endeavour.mp3"
 span: 3
 ```

@@ -22,11 +22,11 @@ Make sure you join us Live on Youtube every Sunday @ 7pm!
 
 Gab: https://gab.com/ToastedBuns
 
-Discord: https://discord.gg/UEBSDwN
+ 
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article"  data-ad-format="fluid"  data-ad-client="ca-pub-2164900147810573"  data-ad-slot="8817307412"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-Checkout Ahmed @ http://ahmedhadjou.com/
+ 
 
 Image from:
 https://l7.alamy.com/zooms/7d5a116da48648b488aea7f796cd76cc/male-in-muslim-keffiyeh-with-gun-in-hand-and-national-flag-on-background-f728g0.jpg

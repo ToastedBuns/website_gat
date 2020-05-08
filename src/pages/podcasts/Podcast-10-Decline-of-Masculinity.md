@@ -24,11 +24,11 @@ Let us know what you think about these events! And also the frogs thing!
 I love you all and you are the best!
 
 Gab: https://gab.com/ToastedBuns
-Discord: https://discord.gg/UEBSDwN
+ 
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;"  data-ad-layout="in-article"  data-ad-format="fluid"  data-ad-client="ca-pub-2164900147810573"  data-ad-slot="8817307412"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
-Checkout Ahmed @ http://ahmedhadjou.com/
+ 
 
 ```audio
 autoplay: true

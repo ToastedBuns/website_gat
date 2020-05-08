@@ -27,7 +27,7 @@ Let's talk!
 
 Gab: https://gab.ai/ToastedBuns
 
-Discord: https://discord.gg/UEBSDwN
+ 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Jzojtpj0uaw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -23,7 +23,7 @@ You can also join us on our weekly Podcast every Sunday @ 7pm live here on this 
 
 Let's talk!
 Gab: https://gab.ai/ToastedBuns
-Discord: https://discord.gg/UEBSDwN
+ 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l2dzOw4rVGk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
