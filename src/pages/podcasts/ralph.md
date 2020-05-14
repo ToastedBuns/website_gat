@@ -1,6 +1,6 @@
 ---
 title: 'State of The Right Wing in the UK With Right Reaction'
-date: 2020-05-08 21:00:28
+date: 2020-05-12 21:00:28
 tags:
   - Podcast
   - Politics

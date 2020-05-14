@@ -143,7 +143,6 @@ const Sidebar = () => (
     </ul>
     <div className="side-footer">
       <MailList />
-      <iframe src="https://discordapp.com/widget?id=520902353822547989&theme=light" width="349" height="500" allowtransparency="true" frameBorder="0"></iframe>
       <p>ToastedBuns&copy; {new Date().getFullYear()}</p>
     </div>
   </nav>
