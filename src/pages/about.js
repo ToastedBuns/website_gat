@@ -92,15 +92,6 @@ const about = () => {
           </li>
           <li>
             <a
-              href="https://discord.gg/UEBSDwN"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Discord
-            </a>
-          </li>
-          <li>
-            <a
               href="mailto:contact@toastedbuns.co.uk"
               target="_blank"
               rel="noopener noreferrer"
