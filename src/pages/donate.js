@@ -3,7 +3,6 @@ import Layout from '../components/layout'
 import BitcoinWallet from '../images/bitcoin_wallet.jpg'
 import ETHWallet from '../images/ethereum_wallet.jpg'
 import LTCWallet from '../images/litecoin_wallet.jpg'
-import Paypal from '../images/paypal.png'
 import BitcoinLogo from '../images/bitcoin_logo.png'
 import ETHLogo from '../images/ethereum_logo.jpg'
 import LTCLogo from '../images/litecoin_logo.png'
@@ -24,21 +23,6 @@ const donate = () => {
         </p>
         <br />
         <p>I love you all and you are the best!</p>
-        <img
-              src={Paypal}
-              alt="dlive"
-              style={{ maxWidth: 210, maxHeight: 210 }}
-            />
-
-        <h3>
-          <a
-            href="https://paypal.me/toastedbuns"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Donate Now!
-          </a>
-        </h3>
         <br />
 
                 <img
